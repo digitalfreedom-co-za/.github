@@ -69,14 +69,16 @@ Stars and pull requests on these projects are the strongest signal we have for w
 
 ### Jasmin Rosenstock — Beauty content
 
-Jasmin is the creative half of Digital Freedom. She produces beauty content on YouTube — the makeup, the skincare, the products, the routines, the experiments. Her channel is her own brand, her own platform, and one of the cornerstones of how Digital Freedom works in practice: an independent business built one upload at a time, owned end-to-end, with no agency, no studio, and no editorial line other than her own.
+Jasmin is the creative half of Digital Freedom. She produces beauty content on YouTube with a clear focus on **hair styling** — tools, techniques, and the real-world routines that turn out usable hair on a normal morning, not just on a polished thumbnail. The channel is her own brand, her own platform, and one of the cornerstones of how Digital Freedom works in practice: an independent business built one upload at a time, owned end-to-end, with no agency, no studio, and no editorial line other than her own.
 
-What you will find on the channel:
+The work is technique-driven and tool-aware. Recurring themes on the channel include:
 
-- **Makeup tutorials and looks** — full faces, specific techniques, going from product on the table to finished look on camera.
-- **Product reviews and first impressions** — honest takes on new launches and long-term opinions on the products that survived the rotation.
-- **Routines** — the daily, weekly, and seasonal beauty routines that actually get used, not the idealised ones meant for thumbnails.
-- **Lifestyle and behind the scenes** — the parts of an independent creator's life that do not fit into a tutorial: the planning, the studio setup, the gear, the moments between the videos.
+- **Dyson Airwrap deep-dives.** Every attachment in the ecosystem (long barrels, smoothing brush, big round brush, mini round brush, Coanda-style attachments), what each one is actually good for, how to make a finish hold, and where the cheaper alternatives stand up to the originals.
+- **Beach waves.** Multiple techniques across multiple tools — the Airwrap, the ghd Waver, a flat iron, combinations of two tools at once — including the humidity-proof versions and the "two-tool, is this crazy or brilliant?" experiments.
+- **Blowdry tutorials.** Round-brush blowouts on the Airwrap, thermal-brush blowdries, fake-blowdry shortcuts with heated brushes, smoothing-brush morning routines.
+- **Curls and waves.** Quick everyday versions, glam versions for occasions, advanced thermal-brush waves, heatless-curler experiments and first impressions.
+- **Practical hair recovery.** Restoring sweaty gym hair in ten minutes, the morning-after hangover refresh, anti-frizz strategies that survive humidity, and how to keep hair tools clean so they last.
+- **Skin reset routines.** Weekend reset routines for getting the glow back, short and honest, woven in between the hair-focused episodes.
 
 The channel is in German, the audience reaches well beyond German-speaking countries, and the work happens on Jasmin's own schedule — which is the entire point.
 
