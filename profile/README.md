@@ -1,4 +1,4 @@
-# Digital Freedom (Pty) Ltd
+# Digital Freedom a Berger & Rosenstock GbR Brand
 
 **Digital Freedom is both the name of the company and the goal we are working toward.**
 
@@ -109,7 +109,7 @@ Both channels are how we earn the room to keep building. If our work helps you i
 ## Where to find the company
 
 - **Website:** [digitalfreedom.co.za](https://digitalfreedom.co.za)
-- **Registration:** Digital Freedom (Pty) Ltd, South Africa
+- **Registration:** Digital Freedom - Berger & Rosenstock GbR, Germany
 - **Marcel — personal website:** [marcelrgberger.com](https://marcelrgberger.com)
 - **Marcel — code, plugins, and open source:** [github.com/marcelrgberger](https://github.com/marcelrgberger)
 - **Marcel — book:** [Solopreneur — The Art of Working Alone](https://amzn.eu/d/06PCcWKD)
