@@ -23,7 +23,7 @@ These four are not slogans. They are the constraints we design every decision ar
 
 Marcel is the technical half of Digital Freedom. Twenty years of software engineering in enterprise environments — microservice architectures for banks, identity and access management for regulated industries, instant payment platforms, digital transformation projects in critical infrastructure (KRITIS) — now applied to running an independent software business as a solo founder. Production-first, secure by default, designed to last.
 
-The focus is end-to-end app development: native Swift apps for iOS and macOS, cross-platform Flutter apps for iOS and Android, the Quarkus-based Java microservices that power them, the Kubernetes platform that runs those services, the GitOps pipeline that deploys them, and the developer tooling that makes the whole stack pleasant to operate.
+The focus is end-to-end app development: native Swift apps for iOS and macOS, cross-platform Flutter apps for iOS (Android versions are planned per product, not yet shipped), the Quarkus-based Java microservices that power them, the Kubernetes platform that runs those services, the GitOps pipeline that deploys them, and the developer tooling that makes the whole stack pleasant to operate.
 
 #### Products
 
@@ -31,7 +31,7 @@ Each product is a complete operation — mobile or desktop app, backend services
 
 **Live in the App Store**
 
-- **[DokuAI](https://dokuai.app)** ([App Store](https://apps.apple.com/app/id6749177847)) — AI-powered reporting and documentation for construction and field service. Photos or voice recordings go in; structured, ready-to-send reports come out. Five microservices, Apache Kafka, OpenAI Whisper for transcription, OpenAI Vision for image understanding, PostgreSQL for state. Flutter app for iOS and Android.
+- **[DokuAI](https://dokuai.app)** ([App Store](https://apps.apple.com/app/id6749177847)) — AI-powered reporting and documentation for construction and field service. Photos or voice recordings go in; structured, ready-to-send reports come out. Five microservices, Apache Kafka, OpenAI Whisper for transcription, OpenAI Vision for image understanding, PostgreSQL for state. Flutter app, iOS.
 - **[SnapShots](https://snapshots-quiz.app)** ([App Store](https://apps.apple.com/app/id6759857715)) — AI-generated word puzzle game. Every hour the backend produces a fresh set of puzzles: GPT-4o picks the words, DALL-E 3 generates visual clues, everything translated into eight languages. Global leaderboard, streak system, offline play. Quarkus backend, PostgreSQL, Flutter app.
 - **[CivoCloudManager](https://civo-cloud-manager.app.website)** ([App Store](https://apps.apple.com/app/id6760776010)) — Native macOS app for Civo Cloud: full CRUD, Kubernetes deep integration with live metrics, pods and logs, S3 file browser, firewall management, eight languages. Swift 6, SwiftUI, zero dependencies.
 
