@@ -25,21 +25,39 @@ Marcel is the technical half of Digital Freedom. Twenty years of software engine
 
 The focus is end-to-end app development: native Swift apps for iOS and macOS, cross-platform Flutter apps for iOS and Android, the Quarkus-based Java microservices that power them, the Kubernetes platform that runs those services, the GitOps pipeline that deploys them, and the developer tooling that makes the whole stack pleasant to operate.
 
-#### Products currently shipping
+#### Products
 
-Five production products live in this organization. Each one is a complete operation — mobile app, backend services, infrastructure, and operations — built and run by a single person.
+Each product is a complete operation — mobile or desktop app, backend services where applicable, infrastructure, and operations — built and run by a single person. The canonical live catalogue at any moment is at [marcelrgberger.com](https://marcelrgberger.com).
 
-- **[DokuAI](https://dokuai.app)** — AI-powered reporting and documentation for construction and field service. Photos or voice recordings go in; structured, ready-to-send reports come out. Five microservices, Apache Kafka, OpenAI Whisper for transcription, OpenAI Vision for image understanding, PostgreSQL for state. Flutter app for iOS and Android.
-- **[Sommelio](https://sommelio.app)** — AI wine recommendations from a single photo. Point the camera at a bottle or label; Sommelio extracts the wine profile, matches it against the user's taste, and streams personalised suggestions in real time. Three microservices, Kafka, OpenAI Vision, server-sent events. Flutter app, eight languages.
-- **[PaperlessIQ](https://paperlessiq.app)** — Intelligent document management for iOS. On-device OCR through Apple Vision, automatic metadata extraction, iCloud sync, optional AI classification. Native SwiftUI with SwiftData and CloudKit. Offline-first — nothing leaves the device unless the user wants it to.
-- **[Pourenzo](https://pourenzo.app)** — AI bartender for the home bar. Photograph the available bottles; Pourenzo identifies what is there and generates cocktail recipes that can actually be made with that inventory. Three microservices, Kafka, OpenAI Vision. Flutter app with multi-language support.
-- **[SnapShots](https://snapshots-quiz.app)** — AI-generated word puzzle game. Every hour the backend produces a fresh set of puzzles: GPT-4o picks the words, DALL-E 3 generates visual clues, everything translated into eight languages. Global leaderboard, streak system, offline play. Quarkus backend, PostgreSQL, Flutter app.
+**Live in the App Store**
+
+- **[DokuAI](https://dokuai.app)** ([App Store](https://apps.apple.com/app/id6749177847)) — AI-powered reporting and documentation for construction and field service. Photos or voice recordings go in; structured, ready-to-send reports come out. Five microservices, Apache Kafka, OpenAI Whisper for transcription, OpenAI Vision for image understanding, PostgreSQL for state. Flutter app for iOS and Android.
+- **[SnapShots](https://snapshots-quiz.app)** ([App Store](https://apps.apple.com/app/id6759857715)) — AI-generated word puzzle game. Every hour the backend produces a fresh set of puzzles: GPT-4o picks the words, DALL-E 3 generates visual clues, everything translated into eight languages. Global leaderboard, streak system, offline play. Quarkus backend, PostgreSQL, Flutter app.
+- **[CivoCloudManager](https://civo-cloud-manager.app.website)** ([App Store](https://apps.apple.com/app/id6760776010)) — Native macOS app for Civo Cloud: full CRUD, Kubernetes deep integration with live metrics, pods and logs, S3 file browser, firewall management, eight languages. Swift 6, SwiftUI, zero dependencies.
+
+**In development**
+
+- **[Sommelio](https://sommelio.app)** — AI wine recommendations from a single photo. Three microservices, Kafka, OpenAI Vision, server-sent events. Flutter app, eight languages.
+- **[PaperlessIQ](https://paperlessiq.app)** — Intelligent document management for iOS. On-device OCR through Apple Vision, automatic metadata extraction, iCloud sync, optional AI classification. Native SwiftUI with SwiftData and CloudKit.
+- **[Pourenzo](https://pourenzo.app)** — AI bartender for the home bar. Three microservices, Kafka, OpenAI Vision. Flutter app with multi-language support.
+- **BoatCare** — iOS native maintenance log for boat owners with on-device AI. Engine hours, antifoul cycle, electronics audit, winterisation. SwiftUI, SwiftData, Core ML.
+- **[Bucketeer](https://github.com/digitalfreedom-co-za/bucketeer)** — Native macOS app for browsing, transferring, mounting and syncing object storage across AWS, Civo, Cloudflare R2, Backblaze B2, Wasabi, DigitalOcean Spaces, Storj, MinIO and Azure Blob. Source-available on GitHub, App Store only on release. Swift 6.
 
 #### The platform behind it
 
-All five products run on a single Civo-hosted Kubernetes cluster with GitOps via ArgoCD, Helm-based deployments, container images in GitHub Container Registry, Maven artefacts in GitHub Packages, observability through Prometheus and Grafana. CI/CD pipelines carry every change from `git push` to App Store release entirely through GitHub Actions — no manual deploys, no hidden state.
+All products run on a single Civo-hosted Kubernetes cluster with GitOps via ArgoCD, Helm-based deployments, container images in GitHub Container Registry, Maven artefacts in GitHub Packages, observability through Prometheus and Grafana. CI/CD pipelines carry every change from `git push` to App Store release entirely through GitHub Actions — no manual deploys, no hidden state.
 
 The cluster maintains itself. A Claude-powered platform operations agent runs every hour, reads the cluster state, detects problems, restarts unhealthy services, scales node pools, applies resource patches to Helm charts, and commits the changes back through the GitOps pipeline. A second agent runs daily and does the slower work — analysing patterns, tuning Helm charts, refining security policies. No human in the loop for routine operations.
+
+#### Studio for client work — [theapparchitect.com](https://theapparchitect.com)
+
+Alongside the in-house products, Marcel offers project-shaped engagements to small and mid-sized businesses through **The App Architect** — the studio brand operated under the same GbR.
+
+- **Full Build.** From whiteboard to App Store. Planning, architecture, UX and delivery. Source code, build pipelines and a written handover at the end. Fixed scope, fixed price.
+- **Architecture Review.** Two focused weeks looking at the system you already have. Written report with prioritised actions and risk ratings — practical findings, not academic.
+- **Embedded Architect.** Part-time inside your team. Owns the system-design calls and keeps your engineers unblocked. Months, not days.
+
+The studio's positioning: *Code is cheap. Architecture is the moat.* One architect, end-to-end, accountable for the outcome — no agency layers between the work and the customer. The same engineering discipline that runs the in-house products is applied to the client's stack.
 
 #### Books
 
@@ -47,13 +65,15 @@ The cluster maintains itself. A Claude-powered platform operations agent runs ev
 
 #### Open source
 
-The repositories in this organization are private by design — they are the commercial backbone. Most of Marcel's open-source work, smaller experiments, and tooling live on the personal account at [github.com/marcelrgberger](https://github.com/marcelrgberger):
+The product repositories in this organization are private by design — they are the commercial backbone. Most of Marcel's open-source work, smaller experiments, and tooling live on the personal account at [github.com/marcelrgberger](https://github.com/marcelrgberger):
 
-- **Claude Code plugins** that let Anthropic's Claude Code agent drive desktop applications directly: `pages-cli` for Apple Pages, `numbers-cli` for Apple Numbers, `xcode-cli` for the full Xcode toolchain, `whatsapp-cli` for WhatsApp on macOS, `inwx-dns` for DNS management.
-- **Native macOS apps** — `auto-brew` keeps Homebrew and every installed package up to date in the background; `civo-cloud-manager` is a SwiftUI front end for the Civo cloud and the Kubernetes cluster running underneath; `dictator-app` brings system-wide offline dictation via WhisperKit on Apple Silicon.
+- **Claude Code plugins** that let Anthropic's Claude Code agent drive desktop applications directly — `pages-cli` for Apple Pages, `numbers-cli` for Apple Numbers, `xcode-cli` for the full Xcode toolchain, `whatsapp-cli` for WhatsApp on macOS, `inwx-dns` for INWX DNS management, `jira-cli` for Atlassian Jira Cloud.
+- **Native macOS apps** — `auto-brew` keeps Homebrew and every installed package up to date in the background with a full Brew GUI and an AppSnapshot engine for migrating app data across Macs; `civo-cloud-manager` is the SwiftUI front end for the Civo cloud and the Kubernetes cluster running underneath, shipped on the App Store as well.
 - **CLI tools** — `askapro-cli` is an AI-powered document analysis tool with 85+ expert consultation roles; `l10n_translator_cli` automates ARB translation through OpenAI for Flutter localisation; `alertmanager-talk-bridge` forwards Prometheus alerts to Nextcloud Talk.
 - **Larger projects** — `paperless-neo` is an AI-native fork of Paperless-ngx with a modern UI and multi-user RBAC.
 - **A Homebrew tap** at `marcelrgberger/homebrew-tap` distributes the macOS apps.
+
+Within this organization itself, **[Bucketeer](https://github.com/digitalfreedom-co-za/bucketeer)** is source-available — the native macOS app for cross-provider object storage. Source readable, App Store only on release.
 
 Stars and pull requests on these projects are the strongest signal we have for which experiments are worth more of our time. If a tool helps you, please consider starring it.
 
@@ -67,22 +87,19 @@ Stars and pull requests on these projects are the strongest signal we have for w
 - **Security and identity:** Keycloak, OAuth2, OpenID Connect, JSON Web Tokens, Let's Encrypt, Authentik
 - **AI and automation:** OpenAI API (GPT-4o, Vision, DALL-E 3, Whisper), Anthropic Claude, on-device Vision and Speech frameworks
 
-### Jasmin Rosenstock — Beauty content
+### Jasmin Rosenstock — Beauty content as **Jasmin Elise · Beauty**
 
-Jasmin is the creative half of Digital Freedom. She produces beauty content on YouTube with a clear focus on **hair styling** — tools, techniques, and the real-world routines that turn out usable hair on a normal morning, not just on a polished thumbnail. The channel is her own brand, her own platform, and one of the cornerstones of how Digital Freedom works in practice: an independent business built one upload at a time, owned end-to-end, with no agency, no studio, and no editorial line other than her own.
+Jasmin is the creative half of Digital Freedom. Her brand positioning is *Glowy skin. Heatless curls. Me-time.* — hair styling, skincare routines, and small beauty hacks for women who consciously take time for themselves and want to bring out their best. Over forty, based in Bad Nauheim, and proof that the right routines beat the right age.
 
-The work is technique-driven and tool-aware. Recurring themes on the channel include:
+The website [jasminelise-beauty.de](https://jasminelise-beauty.de) is the central hub. It pulls the latest videos and shorts directly from the YouTube channel and organises everything around three rabbit holes a viewer can keep returning to:
 
-- **Dyson Airwrap deep-dives.** Every attachment in the ecosystem (long barrels, smoothing brush, big round brush, mini round brush, Coanda-style attachments), what each one is actually good for, how to make a finish hold, and where the cheaper alternatives stand up to the originals.
-- **Beach waves.** Multiple techniques across multiple tools — the Airwrap, the ghd Waver, a flat iron, combinations of two tools at once — including the humidity-proof versions and the "two-tool, is this crazy or brilliant?" experiments.
-- **Blowdry tutorials.** Round-brush blowouts on the Airwrap, thermal-brush blowdries, fake-blowdry shortcuts with heated brushes, smoothing-brush morning routines.
-- **Curls and waves.** Quick everyday versions, glam versions for occasions, advanced thermal-brush waves, heatless-curler experiments and first impressions.
-- **Practical hair recovery.** Restoring sweaty gym hair in ten minutes, the morning-after hangover refresh, anti-frizz strategies that survive humidity, and how to keep hair tools clean so they last.
-- **Skin reset routines.** Weekend reset routines for getting the glow back, short and honest, woven in between the hair-focused episodes.
+- **Hair styling.** Dyson Airwrap deep-dives across every attachment in the ecosystem, ghd Waver and flat-iron beach waves, round-brush blowouts, heatless curlers, thermal-brush waves — long tutorials and quick fixes that actually hold.
+- **Skincare routines.** Weekend resets, morning and night routines, the small habits that compound into a real glow over time. No twenty-step routines, no products you'll never use again.
+- **Beauty hacks.** Tool reviews, time-savers, the little tricks that get you out of the door looking like you tried. Including practical hair recovery (gym hair in ten minutes, the morning-after refresh, humidity-proof anti-frizz strategies).
 
-The channel is in German, the audience reaches well beyond German-speaking countries, and the work happens on Jasmin's own schedule — which is the entire point.
+The channel is in German, the audience reaches well beyond German-speaking countries, and the work happens on Jasmin's own schedule — which is the entire point. The site, the channel and the editorial line are all owned end-to-end: no agency, no studio, no external producer.
 
-Find her on YouTube at [@jasminelise_beauty](https://www.youtube.com/@jasminelise_beauty).
+Find her on YouTube at [@jasminelise_beauty](https://www.youtube.com/@jasminelise_beauty) and on her site at [jasminelise-beauty.de](https://jasminelise-beauty.de).
 
 ## What lives in this organization
 
@@ -102,17 +119,19 @@ Most of this is private by design. Some of the patterns and lessons flow back in
 If the idea of building an independent working life resonates with you — whether you are interested in the technical side, the creative side, or simply curious how the story develops — there are a few ways to follow along:
 
 - **Marcel's GitHub** at [github.com/marcelrgberger](https://github.com/marcelrgberger) — star the open-source projects you find useful, read the code, open issues, send pull requests. Stars on small projects are not vanity metrics for us; they tell us which experiments deserve more of our time.
-- **Jasmin's YouTube channel** at [youtube.com/@jasminelise_beauty](https://www.youtube.com/@jasminelise_beauty) — subscribe, hit the bell, leave comments, share videos with people who would enjoy them. Every subscriber is one more vote for independent beauty content built without an agency behind it.
+- **Jasmin's site and channel** at [jasminelise-beauty.de](https://jasminelise-beauty.de) and [youtube.com/@jasminelise_beauty](https://www.youtube.com/@jasminelise_beauty) — subscribe, hit the bell, leave comments, share videos with people who would enjoy them. Every subscriber is one more vote for independent beauty content built without an agency behind it.
 
 Both channels are how we earn the room to keep building. If our work helps you in any way, the most useful thing you can do is help us reach the next person who would benefit from it.
 
 ## Where to find the company
 
-- **Website:** [digitalfreedom.co.za](https://digitalfreedom.co.za)
-- **Registration:** Digital Freedom - Berger & Rosenstock GbR, Germany
-- **Marcel — personal website:** [marcelrgberger.com](https://marcelrgberger.com)
-- **Marcel — code, plugins, and open source:** [github.com/marcelrgberger](https://github.com/marcelrgberger)
+- **Company:** [digitalfreedom.co.za](https://digitalfreedom.co.za)
+- **Registration:** Digital Freedom — Berger & Rosenstock GbR, Germany
+- **Marcel — personal site:** [marcelrgberger.com](https://marcelrgberger.com)
+- **Marcel — studio for client work:** [theapparchitect.com](https://theapparchitect.com)
+- **Marcel — code, plugins, open source:** [github.com/marcelrgberger](https://github.com/marcelrgberger)
 - **Marcel — book:** [Solopreneur — The Art of Working Alone](https://amzn.eu/d/06PCcWKD)
-- **Jasmin — beauty content:** [youtube.com/@jasminelise_beauty](https://www.youtube.com/@jasminelise_beauty)
+- **Jasmin — beauty site:** [jasminelise-beauty.de](https://jasminelise-beauty.de)
+- **Jasmin — YouTube:** [youtube.com/@jasminelise_beauty](https://www.youtube.com/@jasminelise_beauty)
 
 Thank you for stopping by. Building this kind of independence takes time, and the most encouraging thing in the world is finding out other people are interested in the journey.
