@@ -1,6 +1,6 @@
-# Digital Freedom a Berger & Rosenstock GbR Brand
+# Digital Freedom — a Berger & Rosenstock GbR brand
 
-**Digital Freedom is both the name of the company and the goal we are working toward.**
+**Digital Freedom is both the brand we build under and the goal we are working toward.**
 
 Marcel Berger and Jasmin Rosenstock are building a life beyond the conventional nine-to-five — independent, deliberate, and on our own terms. Together we are pursuing exactly what the company name suggests: freedom over how we spend our time, where we live, what we work on, and how we measure success. This organization holds the code, infrastructure, and creative work that turn that intention into something real.
 
@@ -11,7 +11,7 @@ For most of modern working life, the default contract is the same. A salary in e
 Digital Freedom is the practical alternative we are building for ourselves:
 
 - **Time freedom.** Working when we are most effective, taking breaks when our bodies and minds need them, and being present for the parts of life that matter.
-- **Location freedom.** The work happens wherever a laptop and a stable internet connection can travel. Our company is registered in South Africa, the work is currently done from Germany, and the next move is open. The whole stack is portable by design.
+- **Location freedom.** The work happens wherever a laptop and a stable internet connection can travel. The business runs today as a German GbR, operated from Bad Nauheim; a South African Pty Ltd is the planned next step. The whole stack is portable by design.
 - **Creative freedom.** The right to choose the projects, the technology, the audience, and the standards we hold ourselves to — without compromise filtered through quarterly objectives we did not write.
 - **Financial freedom.** Multiple independent income streams, owned outright, that compound over time rather than depend on a single employer.
 
@@ -125,8 +125,8 @@ Both channels are how we earn the room to keep building. If our work helps you i
 
 ## Where to find the company
 
-- **Company:** <a href="https://digitalfreedom.co.za" target="_blank" rel="noopener noreferrer">digitalfreedom.co.za</a>
-- **Registration:** Digital Freedom — Berger & Rosenstock GbR, Germany
+- **Brand:** <a href="https://digitalfreedom.co.za" target="_blank" rel="noopener noreferrer">digitalfreedom.co.za</a>
+- **Legal entity:** Berger & Rosenstock GbR, Bad Nauheim, Germany
 - **Marcel — personal site:** <a href="https://marcelrgberger.com" target="_blank" rel="noopener noreferrer">marcelrgberger.com</a>
 - **Marcel — studio for client work:** <a href="https://theapparchitect.com" target="_blank" rel="noopener noreferrer">theapparchitect.com</a>
 - **Marcel — code, plugins, open source:** <a href="https://github.com/marcelrgberger" target="_blank" rel="noopener noreferrer">github.com/marcelrgberger</a>
