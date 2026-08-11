@@ -1,6 +1,6 @@
-# Digital Freedom — a Berger & Rosenstock GbR brand
+# DigitalFreedom — a DigitalFreedom Global LLC brand
 
-**Digital Freedom is both the brand we build under and the goal we are working toward.**
+**DigitalFreedom is both the brand we build under and the goal we are working toward.**
 
 Marcel Berger and Jasmin Rosenstock are building a life beyond the conventional nine-to-five — independent, deliberate, and on our own terms. Together we are pursuing exactly what the company name suggests: freedom over how we spend our time, where we live, what we work on, and how we measure success. This organization holds the code, infrastructure, and creative work that turn that intention into something real.
 
@@ -8,10 +8,10 @@ Marcel Berger and Jasmin Rosenstock are building a life beyond the conventional 
 
 For most of modern working life, the default contract is the same. A salary in exchange for a fixed schedule, a fixed location, and someone else's priorities. It is a reliable arrangement, and for many people it works. But it is not the only arrangement, and it is not the one we want.
 
-Digital Freedom is the practical alternative we are building for ourselves:
+DigitalFreedom is the practical alternative we are building for ourselves:
 
 - **Time freedom.** Working when we are most effective, taking breaks when our bodies and minds need them, and being present for the parts of life that matter.
-- **Location freedom.** The work happens wherever a laptop and a stable internet connection can travel. The business runs today as a German GbR, operated from Bad Nauheim; a South African Pty Ltd is the planned next step. The whole stack is portable by design.
+- **Location freedom.** The work happens wherever a laptop and a stable internet connection can travel. The business is incorporated as DigitalFreedom Global LLC in Wyoming, United States, and is run from wherever we happen to be. The whole stack is portable by design.
 - **Creative freedom.** The right to choose the projects, the technology, the audience, and the standards we hold ourselves to — without compromise filtered through quarterly objectives we did not write.
 - **Financial freedom.** Multiple independent income streams, owned outright, that compound over time rather than depend on a single employer.
 
@@ -21,7 +21,7 @@ These four are not slogans. They are the constraints we design every decision ar
 
 ### Marcel Berger — Indie app developer, software architect, author
 
-Marcel is the technical half of Digital Freedom. Twenty years of software engineering in enterprise environments — microservice architectures for banks, identity and access management for regulated industries, instant payment platforms, digital transformation projects in critical infrastructure (KRITIS) — now applied to running an independent software business as a solo founder. Production-first, secure by default, designed to last.
+Marcel is the technical half of DigitalFreedom. Twenty years of software engineering in enterprise environments — microservice architectures for banks, identity and access management for regulated industries, instant payment platforms, digital transformation projects in critical infrastructure (KRITIS) — now applied to running an independent software business as a solo founder. Production-first, secure by default, designed to last.
 
 The focus is end-to-end app development: native Swift apps for iOS and macOS, cross-platform Flutter apps for iOS (Android versions are planned per product, not yet shipped), the Quarkus-based Java microservices that power them, the Kubernetes platform that runs those services, the GitOps pipeline that deploys them, and the developer tooling that makes the whole stack pleasant to operate.
 
@@ -51,7 +51,7 @@ The cluster maintains itself. A Claude-powered platform operations agent runs ev
 
 #### Studio for client work — <a href="https://theapparchitect.com" target="_blank" rel="noopener noreferrer">theapparchitect.com</a>
 
-Alongside the in-house products, Marcel offers project-shaped engagements to small and mid-sized businesses through **The App Architect** — the studio brand operated under the same GbR.
+Alongside the in-house products, Marcel offers project-shaped engagements to small and mid-sized businesses through **The App Architect** — the studio brand operated under the same company.
 
 - **Full Build.** From whiteboard to App Store. Planning, architecture, UX and delivery. Source code, build pipelines and a written handover at the end. Fixed scope, fixed price.
 - **Architecture Review.** Two focused weeks looking at the system you already have. Written report with prioritised actions and risk ratings — practical findings, not academic.
@@ -89,7 +89,7 @@ Stars and pull requests on these projects are the strongest signal we have for w
 
 ### Jasmin Rosenstock — Beauty content as **Jasmin Elise · Beauty**
 
-Jasmin is the creative half of Digital Freedom. Her brand positioning is *Glowy skin. Heatless curls. Me-time.* — hair styling, skincare routines, and small beauty hacks for women who consciously take time for themselves and want to bring out their best. Over forty, based in Bad Nauheim, and proof that the right routines beat the right age.
+Jasmin is the creative half of DigitalFreedom. Her brand positioning is *Glowy skin. Heatless curls. Me-time.* — hair styling, skincare routines, and small beauty hacks for women who consciously take time for themselves and want to bring out their best. Over forty, based in Bad Nauheim, and proof that the right routines beat the right age.
 
 The website <a href="https://jasminelise-beauty.de" target="_blank" rel="noopener noreferrer">jasminelise-beauty.de</a> is the central hub. It pulls the latest videos and shorts directly from the YouTube channel and organises everything around three rabbit holes a viewer can keep returning to:
 
@@ -126,7 +126,7 @@ Both channels are how we earn the room to keep building. If our work helps you i
 ## Where to find the company
 
 - **Brand:** <a href="https://digitalfreedom.co.za" target="_blank" rel="noopener noreferrer">digitalfreedom.co.za</a>
-- **Legal entity:** Berger & Rosenstock GbR, Bad Nauheim, Germany
+- **Legal entity:** DigitalFreedom Global LLC, 30 N Gould St, Ste N, Sheridan, WY 82801, United States
 - **Marcel — personal site:** <a href="https://marcelrgberger.com" target="_blank" rel="noopener noreferrer">marcelrgberger.com</a>
 - **Marcel — studio for client work:** <a href="https://theapparchitect.com" target="_blank" rel="noopener noreferrer">theapparchitect.com</a>
 - **Marcel — code, plugins, open source:** <a href="https://github.com/marcelrgberger" target="_blank" rel="noopener noreferrer">github.com/marcelrgberger</a>
