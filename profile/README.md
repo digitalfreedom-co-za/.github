@@ -89,7 +89,7 @@ Stars and pull requests on these projects are the strongest signal we have for w
 
 ### Jasmin Rosenstock — Beauty content as **Jasmin Elise · Beauty**
 
-Jasmin is the creative half of DigitalFreedom. Her brand positioning is *Glowy skin. Heatless curls. Me-time.* — hair styling, skincare routines, and small beauty hacks for women who consciously take time for themselves and want to bring out their best. Over forty, based in Bad Nauheim, and proof that the right routines beat the right age.
+Jasmin is the creative half of DigitalFreedom. Her brand positioning is *Glowy skin. Heatless curls. Me-time.* — hair styling, skincare routines, and small beauty hacks for women who consciously take time for themselves and want to bring out their best. Over forty, and proof that the right routines beat the right age.
 
 The website <a href="https://jasminelise-beauty.de" target="_blank" rel="noopener noreferrer">jasminelise-beauty.de</a> is the central hub. It pulls the latest videos and shorts directly from the YouTube channel and organises everything around three rabbit holes a viewer can keep returning to:
 
