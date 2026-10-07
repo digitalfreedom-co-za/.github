@@ -4,7 +4,7 @@
 
 DigitalFreedom is the umbrella brand of DigitalFreedom Global LLC, a limited liability company under the laws of the State of Wyoming, USA. The company is run by its two members, M. Berger and J. Rosenstock. It delivers three things:
 
-- **Client software** under the brand <a href="https://theapparchitect.com" target="_blank" rel="noopener noreferrer">The App Architect</a>, for companies without their own technical lead.
+- **Client software** under the brand <a href="https://theapparchitect.com" target="_blank" rel="noopener noreferrer">The App Architect</a>, for companies without their own technical lead and for teams that need a seasoned architect.
 - **Its own apps** for iPhone, Android and Mac.
 - **Video content** on YouTube.
 
@@ -12,7 +12,7 @@ This organization holds the code and infrastructure behind the software side.
 
 ## Client work — The App Architect
 
-The App Architect is the brand of DigitalFreedom Global LLC for app and backend development on commission. It is aimed at companies without their own technical lead:
+The App Architect is the brand of DigitalFreedom Global LLC for app and backend development on commission. It is aimed at companies without their own technical lead, and equally at teams that need a seasoned architect for an app, a review or a vendor security review:
 
 - **Build.** A production app for iPhone and Android with a backend, at a fixed price per milestone.
 - **Take over.** The developer or agency is gone, the app still has users: assessment, then maintenance and operation.
