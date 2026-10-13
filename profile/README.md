@@ -23,7 +23,7 @@ Every client project comes with four commitments. They apply in the same way to 
 - **Fixed price per milestone.** The scope is fixed in writing after the initial call, and the fixed price per milestone is set in a binding quote before the project starts.
 - **Code in the client's repository.** The code sits in the client's repository from the start of the project. With each paid milestone, the rights to everything delivered up to that point pass to the client.
 - **Accounts in the client's name.** Store, server, domain and payment accounts are registered to the client. We work with access the client grants and can revoke.
-- **Documented standard stack.** We build apps natively in Swift or cross-platform in Flutter, and backends in Java with Quarkus, designed to scale. Our own apps run on the same stack in production, and everything is documented so any team can take over.
+- **Any team can take over.** We build apps natively in Swift or cross-platform in Flutter, and backends in Java with Quarkus, designed to scale. Our own apps run on the same stack in production, and everything is documented so any team can take over.
 
 Client projects run through <a href="https://theapparchitect.com/contact/" target="_blank" rel="noopener noreferrer">theapparchitect.com</a>: the initial call takes 30 minutes and is free. The contracting party is always DigitalFreedom Global LLC.
 
