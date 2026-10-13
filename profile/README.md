@@ -37,6 +37,6 @@ The product repositories in this organization are private. Open-source tools are
 
 ## Contact
 
-- **Company:** <a href="https://digitalfreedom.co.za" target="_blank" rel="noopener noreferrer">digitalfreedom.co.za</a> · hello@digitalfreedom.co.za · +1 307 451 0707
+- **Company:** <a href="https://digitalfreedom.co.za" target="_blank" rel="noopener noreferrer">digitalfreedom.co.za</a> · hello@digitalfreedom.co.za
 - **Client projects:** <a href="https://theapparchitect.com" target="_blank" rel="noopener noreferrer">theapparchitect.com</a>
 - **Legal entity:** DigitalFreedom Global LLC, 30 N Gould St, Ste N, Sheridan, WY 82801, United States — see the <a href="https://digitalfreedom.co.za/imprint/" target="_blank" rel="noopener noreferrer">imprint</a>
